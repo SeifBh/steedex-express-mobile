@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tn.seif.stedeex.TermsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titreTerms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Politique de confidentialité et conditions d'utilisation"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView2d0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Article 1 - Objet "
+                    android:textColor="#2196F3"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView251"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Le présent contrat est une convention entre nos clients et nos, qui a pour objet à définir : "
+                    android:textColor="#F2000000" />
+
+                <ListView
+                    android:id="@+id/sportsList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/terms_list"/>
+
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textVifew20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Article 2 - Durée "
+                    android:textColor="#2196F3"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textVgiew21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ce contrat est passé pour une durée non déterminée. Il arrivera à son terme suite à l’accord de deux parties."
+                    android:textColor="#F2000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textfView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Article 3 - Les modalités "
+                    android:textColor="#2196F3"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textfViefw21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vous allez avoir un carnet qui contient des bons avec un tarif imbattable, le nombre des bons sera en fonction de la destination. Vous allez avoir une liste avec les différents trajets et les nombres des bons, bien détaillée. Evidement, vous allez aussi avoir un devis pour chaque prestation. Le règlement de nos prestations prévues ci-dessus sera payé, au choix du client soit par chèque ou en espèce ou par versement bancaire, dès la réception de la facture avant le 25 du mois, droits et taxes en sus"
+                    android:textColor="#F2000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textViesdsw20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Article 4 - Délais "
+                    android:textColor="#2196F3"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textViedfw21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Steedex s'engage à une exécution immédiate de vos courses dans un délai entre 1h heure et 48 heures, tout dépend de délais de traitement de votre demande et la distance, sans perdre du temps. Votre course est une priorité absolue."
+                    android:textColor="#F2000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Article 5 - Nature des obligations "
+                    android:textColor="#2196F3"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:scrollbarSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pour l'accomplissement des diligences et prestations prévues à l'Article 1 ci-dessus, Steedex s'engage à donner ses meilleures compétences, conformément aux règles de l'art. L'exécution de votre course dans les délais est un engagement de notre part! "
+                    android:textColor="#F2000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
