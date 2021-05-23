@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "198453158034",
+    "firebase_url": "https://steedex-express.firebaseio.com",
+    "project_id": "steedex-express",
+    "storage_bucket": "steedex-express.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198453158034:android:49125bed0c0212e8d0464b",
+        "android_client_info": {
+          "package_name": "tn.seif.steedex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198453158034-64d0df1ipmbvi53aqqmjsh7tt16p4rs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7qbDlspd4ktPEYyVZn_JswcijAskWfWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198453158034-64d0df1ipmbvi53aqqmjsh7tt16p4rs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
